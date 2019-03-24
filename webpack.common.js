@@ -9,5 +9,15 @@ module.exports = {
     },
     plugins: [new HtmlWebpackPlugin({
         template: './src/template.html',
-    })]
+    })],
+    rules: [
+        {
+            test: /\.scss$/,
+            use:[
+                "style-loader", // 3. Injects styles into DOM
+                "css-loader", // 2. Turns css into js
+                "sass-loader" // 1. Turns sass into css
+                ]
+        }
+    ]
 };

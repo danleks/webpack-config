@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #000;
+    --text-color: #fff;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--bg-color);
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    & > h1 {
+        font-size: 8rem;
+        color: var(--text-color);
+    }
+}

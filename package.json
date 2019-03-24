@@ -1,0 +1,11 @@
+{
+  "name": "webpack-config",
+  "version": "1.0.0",
+  "description": "webpack config",
+  "private": true,
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
